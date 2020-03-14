@@ -25,7 +25,7 @@ SECRET_KEY = '62lg&^ww36x86dwg&gmbxvv$z%s7dls(xxc=ak7f1evso5m3%t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['notetakingdj.herokuapp.com']
 
 STATICFILES_DIR = [os.path.join(os.path.dirname(BASE_DIR), "notetaking", "notes", "static")]
 
