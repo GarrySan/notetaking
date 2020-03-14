@@ -27,6 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['notetakingdj.herokuapp.com']
 
+STATIC_ROOT = os.path.join(BASE_DIR, "notetaking", "notes", 'static')
+STATIC_URL = '/static/'
+
+# Extra places for collectstatic to find static files.
+
 STATICFILES_DIR = [os.path.join(os.path.dirname(BASE_DIR), "notetaking", "notes", "static")]
 
 
