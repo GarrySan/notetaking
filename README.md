@@ -30,7 +30,7 @@ All the html templates for the app can be found at /templates/ inside the notes 
 The current app has only one note.html file.
 
 # Views
-Views are the funtions that link add data to our templates and link the forms with our Form model inside forms.py. This app contains only one view:
+Views are the funtions that process the request from the frontend, link our data to our templates and link the forms with our Form model inside forms.py. This app contains only one view:
 - Home: 
     - Adds the NoteObjects data to the template inorder to display all the notes.
     - Links with the NoteForm if the request is a Post request.
